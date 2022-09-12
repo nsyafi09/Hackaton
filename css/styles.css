@@ -140,7 +140,7 @@ ul {
     margin: 30px auto;
     width: 250px;
     height: 300px;
-    border-radius: 40px;
+    border-radius: 20px;
     box-shadow: var(--dark-shadow);
     cursor: pointer;
     transition: 0.4s;
@@ -155,7 +155,7 @@ ul {
   .card .card_image img {
     width: inherit;
     height: inherit;
-    border-radius: 40px;
+    border-radius: 20px;
     object-fit: cover;
   }
   
