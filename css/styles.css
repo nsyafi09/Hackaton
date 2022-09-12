@@ -40,13 +40,51 @@ ul {
 }
 
 
+/*  HERO Showcase Scroll  */
 
+.hero-container {
+    height: 70vh;
+    text-align: center;
+}
 
+.hero-wrapper {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
 
 .hero-section {
     height: 60vh;
-    text-align: center;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 140px;
 }
+
+.hero-wrapper section:nth-child(1) {
+    background-color: grey;
+}
+
+.hero-wrapper section:nth-child(2) {
+    background-color: rgb(66, 48, 48);
+}
+
+.hero-wrapper section:nth-child(3) {
+    background-color: rgb(66, 30, 30);
+}
+
+.hero-wrapper section:nth-child(4) {
+    background-color: rgb(207, 192, 192);
+}
+
+
+
+
+
+
+/* CARDS SECTION */
 
 .cards-section {
     display: flex;
@@ -65,3 +103,4 @@ ul {
     margin: auto;
     padding: 30px;
 }
+
