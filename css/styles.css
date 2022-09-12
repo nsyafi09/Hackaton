@@ -1,0 +1,67 @@
+:root {
+    --dark-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    --transition: all 0.3s linear;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header: NAVBAR */
+.logo {
+    padding-left: 1rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.nav {
+    box-shadow: var(--dark-shadow);
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    /* padding: 10px; */
+}
+
+.nav li {
+    padding-right: 10px;
+}
+
+
+
+
+
+.hero-section {
+    height: 60vh;
+    text-align: center;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cards-content ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-content li {
+    margin: auto;
+    padding: 30px;
+}
