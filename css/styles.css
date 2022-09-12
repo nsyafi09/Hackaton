@@ -43,6 +43,12 @@ ul {
     padding-right: 10px;
 }
 
+@media all and (max-width: 500px) {
+  .nav li {
+    font-size: 0.6rem;
+  }
+}
+
 
 /*  HERO Showcase Scroll  */
 
@@ -64,7 +70,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 140px;
+    font-size: 10rem;
 }
 
 .hero-wrapper section:nth-child(1) {
@@ -83,6 +89,12 @@ ul {
     background-color: rgb(207, 192, 192);
 }
 
+/* For mobile display */
+@media all and (max-width: 500px) {
+  .hero-section {
+    font-size: 2rem;
+  }
+}
 
 
 
